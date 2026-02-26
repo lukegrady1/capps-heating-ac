@@ -4,7 +4,7 @@ export const NAV_LINKS: NavLink[] = [
   { label: 'Services', href: '/services' },
   { label: 'About', href: '/about' },
   { label: 'Reviews', href: '/reviews' },
-  { label: 'Contact', href: '/#contact' },
+  { label: 'Contact', href: '/contact' },
 ]
 
 export const PHONE_NUMBER = '(555) 247-7734'

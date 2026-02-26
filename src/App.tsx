@@ -10,6 +10,7 @@ import { Emergency } from '@/pages/Emergency'
 import { ServicesPage } from '@/pages/Services'
 import { About } from '@/pages/About'
 import { Reviews } from '@/pages/Reviews'
+import { Contact } from '@/pages/Contact'
 
 // Page transition wrapper
 function PageTransition({ children }: { children: ReactNode }) {
@@ -115,6 +116,16 @@ function AppRoutes() {
             <Layout>
               <PageTransition>
                 <Reviews />
+              </PageTransition>
+            </Layout>
+          }
+        />
+        <Route
+          path="/contact"
+          element={
+            <Layout>
+              <PageTransition>
+                <Contact />
               </PageTransition>
             </Layout>
           }
