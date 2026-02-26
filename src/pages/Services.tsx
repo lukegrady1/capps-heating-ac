@@ -129,7 +129,7 @@ export function ServicesPage() {
 
               {/* CTA */}
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link to="/book">
+                <Link to="/contact">
                   <motion.span
                     whileTap={{ scale: 0.95 }}
                     className="inline-flex items-center gap-3 bg-gold text-midnight font-body font-bold tracking-widest uppercase text-xs px-8 py-4 hover:bg-gold-light transition-colors duration-200 min-h-[48px] group"

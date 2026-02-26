@@ -48,12 +48,12 @@ export function CTA() {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Link to="/book">
+              <Link to="/contact">
                 <motion.span
                   whileTap={{ scale: 0.95 }}
                   className="inline-flex items-center gap-3 bg-gold text-midnight font-body font-bold tracking-widest uppercase text-sm px-10 py-5 hover:bg-gold-light transition-colors duration-200 min-h-[56px] group"
                 >
-                  Book a Free Consultation
+                  Contact Us
                   <ArrowRight
                     size={16}
                     className="group-hover:translate-x-1 transition-transform duration-200"

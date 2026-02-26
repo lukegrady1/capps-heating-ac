@@ -82,7 +82,7 @@ export function Hero() {
           <motion.div variants={itemVariants} className="flex items-center gap-3 mb-8">
             <div className="h-px w-8 bg-gold" aria-hidden="true" />
             <span className="font-body text-xs font-semibold tracking-[0.25em] uppercase text-gold">
-              Est. 1998 · Houston, Texas
+              Est. 1998 · Eden, Utah
             </span>
           </motion.div>
 
@@ -108,12 +108,12 @@ export function Hero() {
 
           {/* CTAs */}
           <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4">
-            <Link to="/book">
+            <Link to="/contact">
               <motion.span
                 whileTap={{ scale: 0.95 }}
                 className="inline-flex items-center gap-3 bg-gold text-midnight font-body font-bold tracking-widest uppercase text-sm px-8 py-4 hover:bg-gold-light transition-colors duration-200 min-h-[52px] group"
               >
-                Book a Consultation
+                Contact Us
                 <ArrowRight
                   size={16}
                   className="group-hover:translate-x-1 transition-transform duration-200"

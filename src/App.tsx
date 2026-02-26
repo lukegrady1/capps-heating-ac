@@ -3,9 +3,9 @@ import { Routes, Route, useLocation } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import { Layout } from '@/components/layout/Layout'
 import { MobileEmergencyBar } from '@/components/ui/MobileEmergencyBar'
-import { useLenis } from '@/hooks/useLenis'
+import { useLenis, getLenis } from '@/hooks/useLenis'
 import { Home } from '@/pages/Home'
-import { Book } from '@/pages/Book'
+
 import { Emergency } from '@/pages/Emergency'
 import { ServicesPage } from '@/pages/Services'
 import { About } from '@/pages/About'
@@ -48,7 +48,8 @@ function AppRoutes() {
   useLenis()
 
   return (
-    <AnimatePresence mode="wait">
+    <AnimatePresence mode="wait" onExitComplete={() => getLenis()?.scrollTo(0, { immediate: true })}>
+
       <Routes location={location} key={location.pathname}>
         <Route
           path="/"
@@ -76,16 +77,6 @@ function AppRoutes() {
             <Layout>
               <PageTransition>
                 <ServicesPage />
-              </PageTransition>
-            </Layout>
-          }
-        />
-        <Route
-          path="/book"
-          element={
-            <Layout>
-              <PageTransition>
-                <Book />
               </PageTransition>
             </Layout>
           }

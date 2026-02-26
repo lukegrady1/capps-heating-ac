@@ -278,12 +278,12 @@ export function Reviews() {
               Ready to become our<br />
               <span className="italic text-gradient-gold">next five-star client?</span>
             </h2>
-            <Link to="/book">
+            <Link to="/contact">
               <motion.span
                 whileTap={{ scale: 0.95 }}
                 className="inline-flex items-center gap-3 bg-gold text-midnight font-body font-bold tracking-widest uppercase text-sm px-10 py-4 hover:bg-gold-light transition-colors duration-200 min-h-[52px] group"
               >
-                Book a Consultation
+                Contact Us
                 <ArrowRight size={15} className="group-hover:translate-x-1 transition-transform duration-200" aria-hidden="true" />
               </motion.span>
             </Link>

@@ -7,8 +7,8 @@ export const NAV_LINKS: NavLink[] = [
   { label: 'Contact', href: '/contact' },
 ]
 
-export const PHONE_NUMBER = '(555) 247-7734'
-export const PHONE_RAW = '5552477734'
+export const PHONE_NUMBER = '(801) 745-3585'
+export const PHONE_RAW = '8017453585'
 
 export const SERVICES: Service[] = [
   {
@@ -77,7 +77,7 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     id: '1',
     name: 'Margaret H.',
-    location: 'River Oaks',
+    location: 'Eden',
     rating: 5,
     text: 'Capps transformed our home\'s climate experience entirely. The installation was immaculate—not a trace of their presence except perfect, silent cooling. Worth every penny.',
     service: 'AC Installation',
@@ -86,7 +86,7 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     id: '2',
     name: 'Robert & Diana C.',
-    location: 'Memorial',
+    location: 'Huntsville',
     rating: 5,
     text: 'After three mediocre HVAC companies, finding Capps felt like discovering a hidden gem. Their technician arrived on time, in uniform, with white-glove professionalism throughout.',
     service: 'System Replacement',
@@ -95,7 +95,7 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     id: '3',
     name: 'James P.',
-    location: 'Tanglewood',
+    location: 'Ogden',
     rating: 5,
     text: 'The maintenance plan has been exceptional. Two years in and our 20-year-old system runs like new. The peace of mind alone is worth the investment.',
     service: 'Maintenance Plan',
@@ -104,7 +104,7 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     id: '4',
     name: 'Sarah K.',
-    location: 'Bellaire',
+    location: 'North Ogden',
     rating: 5,
     text: 'Called at 10 PM on a Friday—technician arrived within the hour. Truly 24/7 service that\'s as good as their marketing suggests. Exceptional company.',
     service: 'Emergency Repair',
@@ -113,7 +113,7 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     id: '5',
     name: 'Thomas W.',
-    location: 'West University',
+    location: 'Morgan',
     rating: 5,
     text: 'Had three quotes for a full system replacement. Capps wasn\'t the cheapest, but the level of detail in their assessment—room-by-room load calculations, duct inspection—showed they actually care about getting it right.',
     service: 'System Replacement',
@@ -122,7 +122,7 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     id: '6',
     name: 'Patricia L.',
-    location: 'Southampton',
+    location: 'Layton',
     rating: 5,
     text: 'Our air quality had been bothering us for years. The whole-home filtration system Capps installed has made a noticeable difference. My allergies are finally under control.',
     service: 'Indoor Air Quality',
@@ -131,7 +131,7 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     id: '7',
     name: 'Michael B.',
-    location: 'Meyerland',
+    location: 'Roy',
     rating: 5,
     text: 'I\'ve been on their maintenance plan for three years. Not a single unexpected breakdown. When my neighbors are calling emergency lines in July, I\'m staying comfortable.',
     service: 'Maintenance Plan',
@@ -140,7 +140,7 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     id: '8',
     name: 'Caroline F.',
-    location: 'Heights',
+    location: 'Clearfield',
     rating: 5,
     text: 'Every single person I\'ve interacted with—from the person who answered my call to the technician—has been exceptional. This is how service businesses should operate.',
     service: 'AC Repair',
@@ -149,7 +149,7 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     id: '9',
     name: 'David & Anne R.',
-    location: 'Braeswood',
+    location: 'Pleasant View',
     rating: 5,
     text: 'We were skeptical of the ductless mini-split recommendation but trusted their expertise. Three months in, our energy bill is 30% lower and the temperature control is flawless.',
     service: 'AC Installation',
@@ -158,7 +158,7 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     id: '10',
     name: 'Jennifer T.',
-    location: 'Midtown',
+    location: 'Brigham City',
     rating: 5,
     text: 'The furnace went out on a Sunday in January. Capps had someone here by noon, with the part in hand. No drama, no gouging on the emergency rate. Just excellent service.',
     service: 'Emergency Repair',
@@ -167,7 +167,7 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     id: '11',
     name: 'William C.',
-    location: 'Greenway Plaza',
+    location: 'Kaysville',
     rating: 5,
     text: 'I manage several properties and Capps handles all of them. Their documentation, invoicing, and follow-up are as professional as their technical work. A true partner.',
     service: 'Maintenance Plan',
@@ -176,7 +176,7 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     id: '12',
     name: 'Laura M.',
-    location: 'Montrose',
+    location: 'Bountiful',
     rating: 5,
     text: 'The technician spent 20 minutes explaining exactly what was wrong and why, showed me photos, and walked through every option before touching anything. Refreshing transparency.',
     service: 'AC Repair',
@@ -192,7 +192,7 @@ export const CERTIFICATIONS = [
   { name: 'Trane Comfort', detail: 'Specialist Dealer' },
   { name: 'Carrier Factory', detail: 'Authorized Dealer' },
   { name: '25+ Years', detail: 'Serving the Community' },
-  { name: 'Licensed & Insured', detail: 'Texas HVAC License' },
+  { name: 'Licensed & Insured', detail: 'Utah HVAC License' },
 ]
 
 export const SERVICE_TYPES = [

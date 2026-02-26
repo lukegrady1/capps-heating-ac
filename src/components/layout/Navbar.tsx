@@ -111,12 +111,12 @@ export function Navbar() {
                 </motion.a>
               </div>
 
-              <Link to="/book">
+              <Link to="/contact">
                 <motion.span
                   whileTap={{ scale: 0.95 }}
                   className="inline-flex items-center bg-gold text-midnight font-body text-xs font-bold tracking-widest uppercase px-6 py-3 hover:bg-gold-light transition-colors duration-200 min-h-[48px]"
                 >
-                  Book Service
+                  Contact Us
                 </motion.span>
               </Link>
             </div>
@@ -175,11 +175,11 @@ export function Navbar() {
                 className="mt-4 flex flex-col items-center gap-4"
               >
                 <Link
-                  to="/book"
+                  to="/contact"
                   className="bg-gold text-midnight font-body font-bold tracking-widest uppercase px-10 py-4 text-sm min-h-[52px] flex items-center"
                   onClick={() => setMenuOpen(false)}
                 >
-                  Book Service
+                  Contact Us
                 </Link>
                 <a
                   href={`tel:${PHONE_RAW}`}

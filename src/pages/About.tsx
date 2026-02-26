@@ -9,7 +9,7 @@ const milestones = [
   { year: '1998', title: 'Founded', desc: 'Gary Capps starts the company with a single service van and a commitment to honest, quality work.' },
   { year: '2004', title: 'NATE Certified', desc: 'Entire technician team achieves NATE certification — the first company in the region to do so.' },
   { year: '2009', title: 'BBB Accreditation', desc: 'Awarded A+ rating by the Better Business Bureau, a distinction maintained every year since.' },
-  { year: '2015', title: 'Fleet Expansion', desc: 'Grew to 12 fully-stocked service vehicles to meet growing demand across the Houston metro area.' },
+  { year: '2015', title: 'Fleet Expansion', desc: 'Grew to 12 fully-stocked service vehicles to meet growing demand across Northern Utah.' },
   { year: '2020', title: '300+ Reviews', desc: 'Reached 300 five-star reviews across Google, Yelp, and BBB — driven entirely by word of mouth.' },
   { year: '2024', title: 'Gold Standard Award', desc: 'Named a Trane Comfort Specialist Dealer of the Year for the third consecutive year.' },
 ]
@@ -95,7 +95,7 @@ export function About() {
             </FadeIn>
             <FadeIn delay={0.1}>
               <p className="font-body text-lg text-text-muted leading-relaxed max-w-xl">
-                For over 25 years, Capps Heating & Air Conditioning has been the trusted name in premium climate control for Houston's most discerning homeowners. We didn't get here by being the cheapest — we got here by being the best.
+                For over 25 years, Capps Heating & Air Conditioning has been the trusted name in premium climate control for Northern Utah's most discerning homeowners. We didn't get here by being the cheapest — we got here by being the best.
               </p>
             </FadeIn>
           </div>
@@ -124,7 +124,7 @@ export function About() {
                 {/* Year badge */}
                 <div className="absolute top-6 left-6 glass px-5 py-3">
                   <p className="font-display text-2xl font-bold text-gold">1998</p>
-                  <p className="font-body text-xs text-text-muted tracking-wide">Est. Houston, TX</p>
+                  <p className="font-body text-xs text-text-muted tracking-wide">Est. Eden, UT</p>
                 </div>
               </div>
             </FadeIn>
@@ -327,12 +327,12 @@ export function About() {
               <span className="italic text-gradient-gold">Capps difference?</span>
             </h2>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Link to="/book">
+              <Link to="/contact">
                 <motion.span
                   whileTap={{ scale: 0.95 }}
                   className="inline-flex items-center gap-3 bg-gold text-midnight font-body font-bold tracking-widest uppercase text-sm px-10 py-4 hover:bg-gold-light transition-colors duration-200 min-h-[52px] group"
                 >
-                  Book a Consultation
+                  Contact Us
                   <ArrowRight size={15} className="group-hover:translate-x-1 transition-transform duration-200" aria-hidden="true" />
                 </motion.span>
               </Link>

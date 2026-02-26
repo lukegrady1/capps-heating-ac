@@ -55,9 +55,9 @@ const contactDetails = [
   {
     icon: MapPin,
     label: 'Service Area',
-    value: 'Houston Metro & Surrounding Areas',
+    value: 'Ogden Valley & Northern Utah',
     href: null,
-    note: 'Including Bellaire, West U, Memorial & more',
+    note: 'Including Eden, Huntsville, Ogden & more',
   },
 ]
 
@@ -209,12 +209,12 @@ export function Contact() {
                         Thank you for reaching out. A member of our team will get back to you within two hours during business hours.
                       </p>
                       <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                        <Link to="/book">
+                        <Link to="/contact">
                           <motion.span
                             whileTap={{ scale: 0.95 }}
                             className="inline-flex items-center gap-2 bg-gold text-midnight font-body font-bold tracking-widest uppercase text-xs px-7 py-3.5 hover:bg-gold-light transition-colors duration-200 min-h-[44px]"
                           >
-                            Book a Service Visit
+                            Get in Touch
                             <ArrowRight size={13} aria-hidden="true" />
                           </motion.span>
                         </Link>
@@ -400,7 +400,7 @@ export function Contact() {
                   </h2>
                   <div className="space-y-2">
                     {[
-                      { label: 'Book a Service Visit', to: '/book' },
+                      { label: 'View Our Services', to: '/services' },
                       { label: 'View Emergency Services', to: '/emergency' },
                       { label: 'Explore Our Services', to: '/services' },
                       { label: 'Read Client Reviews', to: '/reviews' },
@@ -448,14 +448,14 @@ export function Contact() {
             {/* Area list */}
             <div className="lg:col-span-1">
               <p className="font-body text-sm text-text-muted leading-relaxed mb-6">
-                We proudly serve Houston and the surrounding metro area. Not sure if we cover your neighborhood? Call us — we'll let you know right away.
+                We proudly serve the Ogden Valley and surrounding Northern Utah communities. Not sure if we cover your area? Call us — we'll let you know right away.
               </p>
               <ul className="grid grid-cols-2 gap-x-4 gap-y-2" role="list">
                 {[
-                  'River Oaks', 'Memorial', 'Tanglewood', 'Bellaire',
-                  'West University', 'Montrose', 'Heights', 'Midtown',
-                  'Greenway Plaza', 'Meyerland', 'Braeswood', 'Sugar Land',
-                  'Katy', 'Pearland', 'The Woodlands', 'Friendswood',
+                  'Eden', 'Huntsville', 'Liberty', 'Powder Mountain',
+                  'Ogden', 'North Ogden', 'South Ogden', 'Pleasant View',
+                  'Roy', 'Clearfield', 'Layton', 'Kaysville',
+                  'Morgan', 'Mountain Green', 'Brigham City', 'Bountiful',
                 ].map((area) => (
                   <li key={area} className="flex items-center gap-2 font-body text-xs text-text-muted">
                     <span className="text-gold" aria-hidden="true">—</span>
@@ -469,14 +469,14 @@ export function Contact() {
             <div
               className="lg:col-span-2 relative h-72 lg:h-96 bg-midnight border border-gold/10 overflow-hidden"
               role="img"
-              aria-label="Service area map — Houston metro and surrounding areas"
+              aria-label="Service area map — Ogden Valley and Northern Utah"
             >
               {/* Decorative map stand-in */}
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center">
                   <MapPin size={36} className="text-gold/30 mx-auto mb-3" aria-hidden="true" />
                   <p className="font-body text-xs text-text-muted tracking-widest uppercase">
-                    Houston Metro Area
+                    Northern Utah Service Area
                   </p>
                   <p className="font-body text-xs text-text-muted mt-1 opacity-60">
                     Interactive map coming soon

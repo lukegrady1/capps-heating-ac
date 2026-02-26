@@ -114,10 +114,10 @@ export function Footer() {
               ))}
               <li>
                 <Link
-                  to="/book"
+                  to="/contact"
                   className="font-body text-sm text-text-muted hover:text-text-primary transition-colors duration-200"
                 >
-                  Book Appointment
+                  Contact Us
                 </Link>
               </li>
             </ul>
@@ -147,7 +147,7 @@ export function Footer() {
               </a>
               <div className="flex items-start gap-3 font-body text-sm text-text-muted">
                 <MapPin size={15} className="text-gold mt-0.5 flex-shrink-0" aria-hidden="true" />
-                <span>Serving Houston Metro &<br />Surrounding Areas</span>
+                <span>Serving the Ogden Valley &<br />Northern Utah</span>
               </div>
             </address>
           </div>
