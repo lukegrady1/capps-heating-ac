@@ -23,12 +23,6 @@
 
   body {
     @apply bg-midnight text-text-primary font-body antialiased;
-    cursor: none;
-  }
-
-  /* Hide default cursor globally — custom cursor handles it */
-  * {
-    cursor: none !important;
   }
 
   ::selection {

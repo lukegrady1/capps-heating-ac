@@ -2,13 +2,14 @@ import type { ReactNode } from 'react'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import { Layout } from '@/components/layout/Layout'
-import { CustomCursor } from '@/components/ui/CustomCursor'
 import { MobileEmergencyBar } from '@/components/ui/MobileEmergencyBar'
 import { useLenis } from '@/hooks/useLenis'
 import { Home } from '@/pages/Home'
 import { Book } from '@/pages/Book'
 import { Emergency } from '@/pages/Emergency'
 import { ServicesPage } from '@/pages/Services'
+import { About } from '@/pages/About'
+import { Reviews } from '@/pages/Reviews'
 
 // Page transition wrapper
 function PageTransition({ children }: { children: ReactNode }) {
@@ -98,6 +99,26 @@ function AppRoutes() {
             </Layout>
           }
         />
+        <Route
+          path="/about"
+          element={
+            <Layout>
+              <PageTransition>
+                <About />
+              </PageTransition>
+            </Layout>
+          }
+        />
+        <Route
+          path="/reviews"
+          element={
+            <Layout>
+              <PageTransition>
+                <Reviews />
+              </PageTransition>
+            </Layout>
+          }
+        />
         {/* Fallback */}
         <Route
           path="*"
@@ -127,7 +148,6 @@ export default function App() {
     <>
       <SkipLink />
       <NoiseOverlay />
-      <CustomCursor />
       <MobileEmergencyBar />
       <AppRoutes />
     </>
