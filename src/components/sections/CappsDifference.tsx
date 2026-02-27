@@ -74,7 +74,7 @@ export function CappsDifference() {
                 transition={{ delay: 0.4, type: 'spring', stiffness: 100, damping: 20 }}
                 className="absolute -right-6 top-1/4 glass p-5 min-w-[140px]"
               >
-                <p className="font-display text-3xl font-bold text-gold">25+</p>
+                <p className="font-display text-3xl font-bold text-gold">20+</p>
                 <p className="font-body text-xs text-text-muted tracking-wide mt-1">
                   Years of Excellence
                 </p>

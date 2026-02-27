@@ -45,7 +45,7 @@ export function Footer() {
               </span>
             </div>
             <p className="font-body text-sm text-text-muted leading-relaxed mb-6">
-              Defining the gold standard in home climate since 1998. Trusted by discerning homeowners across the region.
+              Defining the gold standard in home climate since 2004. Trusted by discerning homeowners across the region.
             </p>
             <div className="flex gap-4">
               <a

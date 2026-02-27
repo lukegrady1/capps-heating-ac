@@ -6,8 +6,8 @@ import { StaggerContainer, staggerItem } from '@/components/motion/StaggerContai
 import { CERTIFICATIONS } from '@/constants'
 
 const milestones = [
-  { year: '1998', title: 'Founded', desc: 'Gary Capps starts the company with a single service van and a commitment to honest, quality work.' },
-  { year: '2004', title: 'NATE Certified', desc: 'Entire technician team achieves NATE certification — the first company in the region to do so.' },
+  { year: '2004', title: 'Founded', desc: 'Matt Capps starts the company with a single service van and a commitment to honest, quality work.' },
+  { year: '2007', title: 'NATE Certified', desc: 'Entire technician team achieves NATE certification — the first company in the region to do so.' },
   { year: '2009', title: 'BBB Accreditation', desc: 'Awarded A+ rating by the Better Business Bureau, a distinction maintained every year since.' },
   { year: '2015', title: 'Fleet Expansion', desc: 'Grew to 12 fully-stocked service vehicles to meet growing demand across Northern Utah.' },
   { year: '2020', title: '300+ Reviews', desc: 'Reached 300 five-star reviews across Google, Yelp, and BBB — driven entirely by word of mouth.' },
@@ -39,10 +39,10 @@ const values = [
 
 const team = [
   {
-    name: 'Gary Capps',
+    name: 'Matt Capps',
     title: 'Founder & Master Technician',
-    tenure: '25+ years',
-    bio: 'Gary founded Capps in 1998 with one goal: build the HVAC company he wished existed. A Master HVAC technician and EPA-certified, he still takes service calls himself.',
+    tenure: '20+ years',
+    bio: 'Matt founded Capps in 2004 with one goal: build the HVAC company he wished existed. A Master HVAC technician and EPA-certified, he still takes service calls himself.',
   },
   {
     name: 'Michelle Capps',
@@ -95,7 +95,7 @@ export function About() {
             </FadeIn>
             <FadeIn delay={0.1}>
               <p className="font-body text-lg text-text-muted leading-relaxed max-w-xl">
-                For over 25 years, Capps Heating & Air Conditioning has been the trusted name in premium climate control for Northern Utah's most discerning homeowners. We didn't get here by being the cheapest — we got here by being the best.
+                For over 20 years, Capps Heating & Air Conditioning has been the trusted name in premium climate control for Northern Utah's most discerning homeowners. We didn't get here by being the cheapest — we got here by being the best.
               </p>
             </FadeIn>
           </div>
@@ -123,7 +123,7 @@ export function About() {
 
                 {/* Year badge */}
                 <div className="absolute top-6 left-6 glass px-5 py-3">
-                  <p className="font-display text-2xl font-bold text-gold">1998</p>
+                  <p className="font-display text-2xl font-bold text-gold">2004</p>
                   <p className="font-body text-xs text-text-muted tracking-wide">Est. Eden, UT</p>
                 </div>
               </div>
@@ -143,13 +143,13 @@ export function About() {
               </h2>
               <div className="space-y-4 font-body text-sm text-text-muted leading-relaxed">
                 <p>
-                  Gary Capps started this company in 1998 with a single service van and a simple mission: to be the HVAC company he always wished existed — one that showed up on time, told the truth, and did the job right the first time.
+                  Matt Capps started this company in 2004 with a single service van and a simple mission: to be the HVAC company he always wished existed — one that showed up on time, told the truth, and did the job right the first time.
                 </p>
                 <p>
-                  In an industry notorious for bait-and-switch pricing and shortcuts, Gary built something different. He hired only technicians who shared his obsession with quality. He turned away business when he couldn't staff it properly. He answered every call himself for the first five years.
+                  In an industry notorious for bait-and-switch pricing and shortcuts, Matt built something different. He hired only technicians who shared his obsession with quality. He turned away business when he couldn't staff it properly. He answered every call himself for the first five years.
                 </p>
                 <p>
-                  Twenty-five years later, that same philosophy drives everything we do. The van count has grown to twelve, the team to over twenty, and the awards and certifications fill a wall — but the promise Gary made in 1998 remains unchanged.
+                  Over twenty years later, that same philosophy drives everything we do. The van count has grown to twelve, the team to over twenty, and the awards and certifications fill a wall — but the promise Matt made in 2004 remains unchanged.
                 </p>
               </div>
             </FadeIn>
@@ -164,11 +164,11 @@ export function About() {
             <div className="flex items-center gap-3 mb-4">
               <div className="h-px w-8 bg-gold" aria-hidden="true" />
               <span className="font-body text-xs font-semibold tracking-[0.25em] uppercase text-gold">
-                25 Years of Milestones
+                20+ Years of Milestones
               </span>
             </div>
             <h2 id="milestones-heading" className="font-display text-4xl md:text-5xl font-bold text-arctic leading-tight">
-              A Quarter-Century<br />
+              Two Decades<br />
               <span className="italic text-gradient-gold">of Excellence</span>
             </h2>
           </FadeIn>

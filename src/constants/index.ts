@@ -191,7 +191,7 @@ export const CERTIFICATIONS = [
   { name: '4.9★ Google', detail: '300+ Verified Reviews' },
   { name: 'Trane Comfort', detail: 'Specialist Dealer' },
   { name: 'Carrier Factory', detail: 'Authorized Dealer' },
-  { name: '25+ Years', detail: 'Serving the Community' },
+  { name: '20+ Years', detail: 'Serving the Community' },
   { name: 'Licensed & Insured', detail: 'Utah HVAC License' },
 ]
 
