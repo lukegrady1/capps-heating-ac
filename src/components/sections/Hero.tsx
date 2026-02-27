@@ -82,7 +82,7 @@ export function Hero() {
           <motion.div variants={itemVariants} className="flex items-center gap-3 mb-8">
             <div className="h-px w-8 bg-gold" aria-hidden="true" />
             <span className="font-body text-xs font-semibold tracking-[0.25em] uppercase text-gold">
-              Est. 1998 · Eden, Utah
+              Est. 2004 · Eden, Utah
             </span>
           </motion.div>
 
